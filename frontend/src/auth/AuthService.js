@@ -82,7 +82,7 @@ export default class AuthService {
     return new Date().getTime() < this.expiresAt
   }
 
-  // a static method to get the access token
+  // a method to get the access token
   getAuthToken () {
     return this.accessToken
   }
